@@ -1,8 +1,8 @@
 body {
-    margin: 25px;
-    background-color: rgb(240,240,240);
+   
+    background-color:white;
     font-family: Georgia, Garamond;
-    font-size: 14px;
+    font-size: 11px;
 
     color :#404040 ;
 
@@ -11,12 +11,12 @@ body {
   /* Applies to all <h1>...</h1> elements. */
   h2 {
   
-    font: 15px;
     font-weight: normal;
-    margin-top: 5px;
-    background-color :#F0F0F0;
+  
+    background-color :#f0f0f0;
     color :#A4A400;
     font-family: Lucida ,Helvetica, Arial, sans-serif;
+    font-size:18px;
     
     
   }
@@ -26,6 +26,7 @@ body {
      font-size:22px;
     font-family:Lucida ,Helvetica, Arial, sans-serif;
     color :#A4A400;
+    background-color :#F0F0F0;
 
     
 
@@ -34,4 +35,31 @@ body {
   a{
 
     color: #A4A400;
+  }
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
