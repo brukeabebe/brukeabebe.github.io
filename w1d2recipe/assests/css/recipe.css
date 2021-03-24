@@ -1,0 +1,37 @@
+body {
+    margin: 25px;
+    background-color: rgb(240,240,240);
+    font-family: Georgia, Garamond;
+    font-size: 14px;
+
+    color :#404040 ;
+
+  }
+  
+  /* Applies to all <h1>...</h1> elements. */
+  h2 {
+  
+    font: 15px;
+    font-weight: normal;
+    margin-top: 5px;
+    background-color :#F0F0F0;
+    color :#A4A400;
+    font-family: Lucida ,Helvetica, Arial, sans-serif;
+    
+    
+  }
+
+  h1 {
+
+     font-size:22px;
+    font-family:Lucida ,Helvetica, Arial, sans-serif;
+    color :#A4A400;
+
+    
+
+  }
+
+  a{
+
+    color: #A4A400;
+  }
