@@ -1,0 +1,30 @@
+body {
+   
+    background-color:grey;
+    font-family: Georgia, Garamond;
+    font-size: 11px;
+
+    color :white;
+
+  }
+  
+  /* Applies to all <h1>...</h1> elements. */
+  h3, h2 {
+  
+    font-weight: normal;
+  
+  
+    color:royalblue;
+    font-family: Lucida ,Helvetica, Arial, sans-serif;
+    font-size:18px;
+    
+    
+  }
+
+  h1 {
+
+     font-size:22px;
+    font-family:Lucida ,Helvetica, Arial, sans-serif;
+    color:royalblue;
+    
+  }
