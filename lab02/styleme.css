@@ -1,6 +1,6 @@
 body {
    
-    background-color:grey;
+    background-color:rgb(184, 174, 174);
     font-family: Georgia, Garamond;
     font-size: 11px;
 
@@ -11,10 +11,10 @@ body {
   /* Applies to all <h1>...</h1> elements. */
   h3, h2 {
   
-    font-weight: normal;
+    font-weight: bold;
   
   
-    color:royalblue;
+    color:rgb(70, 112, 240);
     font-family: Lucida ,Helvetica, Arial, sans-serif;
     font-size:18px;
     
@@ -23,8 +23,26 @@ body {
 
   h1 {
 
+    font-weight:bold;
      font-size:22px;
     font-family:Lucida ,Helvetica, Arial, sans-serif;
-    color:royalblue;
+    color:rgb(65, 105, 225);
     
   }
+
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+  color: #FF00FF;
+  text-decoration: underline;
+}
+
+p:first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
