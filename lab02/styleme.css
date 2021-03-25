@@ -46,3 +46,18 @@ p:first-letter {
   font-weight: bold;
   margin-right: 9px;
 }
+
+
+ol {
+  counter-reset: my-custom-counter 4;
+  list-style: none;
+}
+
+ol li {
+  counter-increment: my-custom-counter -1;
+}
+
+ol li::before {
+  content: counter(my-custom-counter) '. ';
+
+}
