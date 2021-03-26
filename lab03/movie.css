@@ -147,11 +147,13 @@ body{
       text-align: center;
   }
 
+
+  
   #banner{
       display: block;
       position: relative;
       margin-right:auto;
       margin-left: auto;
-      background-image: url("images/bannerbg.png");
+     
   }
 
