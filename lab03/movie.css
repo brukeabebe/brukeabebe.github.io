@@ -1,0 +1,145 @@
+
+
+body{
+    background-image:url("images/background.png") ;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+  
+}
+
+
+  #middleContainer{
+
+
+    display: flex;
+    flex-direction:row-reverse;
+    width: 800px;
+    border-radius: 20px;
+    margin-left:auto ;
+    margin-right:auto;
+    border: 4px solid gray;
+    position: relative;
+        
+  }
+
+
+
+  #contentLeftMiddle{
+      display: flex;
+      flex-direction: column;
+      width: 550px;
+     
+   
+
+  }
+
+
+#rotten-33{
+
+    background-image: url("images/rbg.png");  
+    background-repeat: repeat-x;
+    background-size: 83px;
+    margin-right:0%;
+    padding-right: 0%;
+    border-top-left-radius: 20px ;
+}
+
+#rating{
+    font-size: 48pt;
+    font-weight: bold;
+    color: maroon;
+}
+
+
+#comments{
+  
+
+    
+
+    display:flex ;
+    column-width: 47%;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+
+#quotes{
+
+    display: block;
+    font-size: 8pt;
+    border-radius : 10px;
+    border: solid 2px gray;
+    background-color:#E8DC9B;
+   
+    font-weight: bold;
+    
+    padding-right: 0px;
+    
+}
+
+#leftFlex
+{
+
+
+    display: flex;
+    flex-direction: column;
+    flex-basis:47%;
+
+}
+
+
+  #coulmnSpacing
+  {
+    width: 2%;
+
+  }
+
+
+#rightFlex
+{
+
+    display: flex;
+
+    flex-direction: column;
+    flex-basis:47%;
+
+
+}
+
+  #contentRightMiddle{
+
+    align-self: flex-start;
+    width: 250px;
+    margin-right: 0px;
+    
+
+  }
+
+
+
+
+#middleImage{
+
+
+    padding-right: 0px;
+    margin-right: 0px;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+  #movieDetail{
+      
+    border-top: 0px;
+    background-color:#A2B964;
+    padding-right: 10px;
+    padding-top:0px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+  }
+
