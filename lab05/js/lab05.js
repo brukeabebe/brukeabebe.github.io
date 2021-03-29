@@ -105,6 +105,11 @@ function computeSumOfSquares(arr)
     return  arr.reduce((a,b)=>a+Math.pow(b,2));
 }
 
+
+var arr=[1,2,3];
+
+console.log(computeSumOfSquares(arr));
+
 function printOddNumbersOnly(arr)
 {
     arr1=[]
@@ -125,11 +130,13 @@ function computeSumOfSquaresOfEvensOnly(arr)
 }
 
 
+
 function sumFunc(arr)
 {
 
-    return arr.reduce((a,b)=>a+b)
+    return arr.reduce((a,b)=>a+b);
 }
+
 
 
 function mulfunc(arr)
@@ -155,10 +162,7 @@ function findSecondBiggest(arr)
         else if( arr[i]>max)
         {
             max=arr[i]
-        }
-
-           
-        
+        }     
     }
     
     for(let i=0;a<arr.length;i++)
@@ -167,13 +171,31 @@ function findSecondBiggest(arr)
          {
             secondBiggest=a[i]
          }
-         else{
-            for(let j=0;a<arr.length;j++)
-            {
-                if(a[i])>
-            }
+         else if(a[i]<max && a[i] >secondBiggest)
+         {
+                secondBiggest=a[i]
          }
-
+            
     }
 
+    return secondBiggest
+
+}
+
+function printFibo(n,a,b)
+{
+   let fibArr=[]
+   fibArr.push(a)
+   fibArr.push(b)
+
+   for(let i=2; i<n;i++)
+   {
+       fibArr.push(finArr[i-1] +finArr[i-2])
+   }
+
+   return  fibArr;
+
+   console.log(fibArr)
+
+   
 }
