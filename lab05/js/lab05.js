@@ -1,3 +1,5 @@
+"use strict"
+
 function max(a, b)
 {
         if(a>b)
@@ -7,6 +9,8 @@ function max(a, b)
                return b
            }
 }
+
+console.log(max(2,3));
 
 function maxOfThree(a,b,c)
 {
@@ -31,6 +35,8 @@ function maxOfThree(a,b,c)
 
 }
 
+console.log(masxOfThree(2,3,4));
+
 function isVowel(char)
 {
     if(char.length==1){
@@ -42,16 +48,21 @@ function isVowel(char)
 
 }
 
+console.log(isVowel("i"));
+console.log(isVowel("v"));
+
 function sum(arr)
 {
 
-        var sum=0
+        var sum=0;
         for(let i=0;i<arr.length;i++)
         {
-                sum+=arr[i]
+                sum+=arr[i];
         }
-        return sum
+        return sum;
 }
+
+console.log(sum([1,2,3]));
 
 
 function multiply(arr)
@@ -61,13 +72,16 @@ function multiply(arr)
     {
        mul=mul*arr[i]     
     }
-    return mul
+    return mul;
 }
+console.log(multiply([1,2,3]));
 
 function reverse(str){
     return str.split("").reverse().join("");
     
 }
+console.log("abc");
+
 
 function findLongestWord(arr)
 {
@@ -107,6 +121,7 @@ function computeSumOfSquares(arr)
 
 
 var arr=[1,2,3];
+
 
 console.log(computeSumOfSquares(arr));
 
@@ -199,3 +214,5 @@ function printFibo(n,a,b)
 
    
 }
+
+// question 14  in lab 04 directory and question 15 in q15.js file
