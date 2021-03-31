@@ -3,24 +3,31 @@
 
 
   //  let [hour, minute, second] = new Date().toLocaleTimeString("en-US").split(/:| /)
-    let seconds=null;
-    let minutes= null;
-    let hours=null;
+    
     function clock()
     { 
-    if(seconds|| minutes || hours ==null)
-     {
+  
          timer=setInterval( count, 1000);
          //timer=setInterval( count, 60,000);
          //timer=setInterval( count, 3,600,000);
-     }
+     
     }
 
 
     window.onload=clock();
     function count()
 
-    {
+    { 
+        
+        document.getElementById("year").innerHTML ="";
+        document.getElementById("year").innerHTML += (new Date()).getFullYear();
+
+        document.getElementById("month").innerHTML ="";
+        document.getElementById("month").innerHTML += (new Date()).getMonth();
+
+        document.getElementById("date").innerHTML ="";
+        document.getElementById("date").innerHTML += (new Date()).getDate();
+
         document.getElementById("seconds").innerHTML ="";
         document.getElementById("seconds").innerHTML += (new Date()).getSeconds();
        
