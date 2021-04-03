@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\midtermRevision"
+		},
+		{
+			"path": "..\\hcmc-website"
+		},
+		{
+			"path": "..\\lab02"
+		},
+		{
+			"path": "..\\lab03"
+		},
+		{
+			"path": "..\\lab04"
+		},
+		{
+			"path": "..\\lab05"
+		},
+		{
+			"path": "..\\lab06"
+		},
+		{
+			"path": "..\\lab07"
+		},
+		{
+			"path": "..\\lab08"
+		},
+		{
+			"path": "..\\w1d6-assignment6-solution"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "midTermRevision2"
+	}
+}
