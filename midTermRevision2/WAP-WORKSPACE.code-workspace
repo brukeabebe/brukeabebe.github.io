@@ -32,9 +32,21 @@
 		},
 		{
 			"path": "..\\w1d6-assignment6-solution"
+		},
+		{
+			"path": "..\\mis"
+		},
+		{
+			"path": "..\\minibankapp"
+		},
+		{
+			"path": "..\\student-course-registration-app"
+		},
+		{
+			"path": "..\\lab09"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "midTermRevision2"
+		"liveServer.settings.multiRootWorkspaceName": "lab09"
 	}
 }
