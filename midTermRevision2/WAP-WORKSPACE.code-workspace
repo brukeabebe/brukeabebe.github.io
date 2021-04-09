@@ -44,9 +44,12 @@
 		},
 		{
 			"path": "..\\lab09"
+		},
+		{
+			"path": "..\\lab10"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "lab09"
+		"liveServer.settings.multiRootWorkspaceName": "lab10"
 	}
 }

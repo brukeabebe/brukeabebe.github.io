@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+        <script src="bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js" ></script> 
+      
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary " >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MUM Golden Market : : : SRM Sytem</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Supplier</a>
+                  </li>
+                 
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                
+                  <label style="margin-right: 2% ;"> Hello!</label>
+                  <button class="btn btn-light" type="submit">Sign out</button>
+                
+              </div>
+            </div>
+          </nav>
+
+
+        <h1>
+            New Product Form
+        </h1>
+        <form id="submitForm" class="row g-3">
+            <div class="col-md-6">
+              <label for="prodcutNumber" class="form-label">Product Number</label>
+              <input type="number" class="form-control"  required id="prodcutNumber">
+            </div>
+
+            <div class="col-md-6">
+              <label for="quantityInStock" class="form-label">Quantity in stock</label>
+              <input type="number" class="form-control"  required id="quantityInStock">
+            </div>
+
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control"  required id="name1">
+            </div>
+
+            <div class="col-md-6">
+              <label for="supplier" class="form-label">Supplier</label>
+              <select  class="form-control" id="supplier" required placeholder="select a supplier">
+                <option selected>select a supplier</option>
+              </select>  
+            </div>
+
+            <div class="col-md-6">
+              <label for="unitPrice" class="form-label">Unit Price</label>
+              <input  type="number" class="form-control" id="unitPrice"  required placeholder="0.0">
+            </div>
+
+
+            <div class="col-md-6">
+              <label for="dateSupplied" class="form-label">Date Supplied</label>
+              <input id="dateSupplied" class="form-control" type="date" required>
+             <label>Enter a valid date</label>
+                
+            </div>
+
+
+            <div class="col-md-6">
+                
+                  
+              </div>
+
+            <div class="col-md-6">
+                
+                <button type="button" class="btn btn-outline-primary" style="margin-right:2%;">Reset</button>
+                <button type="button" class="btn btn-outline-danger"   style="margin-right:2%;">Cancel</button>
+                <button type="submit" id="productAdd" class="btn btn-outline-info"  style="margin-right:2%;">Add Product</button>
+
+                </div>
+            </div>
+
+
+        
+          </form>
+
+          <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+          <script src="js/addProduct.js"></script> 
+    </body>
+</html>
